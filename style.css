@@ -5,10 +5,44 @@
 }
 
 body {
+    background-image: url("image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
     background-color: brown;
+}
+
+.container {
+    width: 470px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 3vw;
+}
+
+.header {
+    margin-bottom: 1vw;
+    background-color: black;
     color: white;
+    font-size: 15px;
+    padding: 1vw;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.7vw;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 0.8vw;
+    margin-bottom: 0.7vw;
+    font-size: 16px;
 }
